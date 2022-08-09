@@ -1,15 +1,19 @@
 # elastic-search
-1-projeyi pc nize indirdikten sonra sanal ortamı kurup active edin
+1- Download ettikten sonra sanalortamı kurup çalıştırın.
+ 
+ linux için kod : source venv/bin/activate
+ 
+2- gerekli kütüphanelerin kurulumu için requirements dosyasını çalıştırın.
+ 
+ pip install -r requirements.txt
+ 
+ 
+3- projenin çalıştırılması için 
 
-(source venv/bin/activate) 
+python manage.py runserver
 
 
-2-uygulamayı çalıştırın 
-
-(python manage.py runserver)
-
-
-3- uygulama açılınca adres çubuğunda 
+4- uygulama açılınca adres çubuğunda 
 
 (127.0.0.1:8000/arama) gibi olmalı.
 
